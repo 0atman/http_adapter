@@ -1,0 +1,6 @@
+web:
+  restart: always
+  build: .
+  ports:
+    - "5000:5000"
+  command: python adapter.py
