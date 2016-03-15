@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 
-from routes import *
+from routes.routes import *
 
 
 app = Flask(__name__)
